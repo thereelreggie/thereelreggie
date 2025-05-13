@@ -1,0 +1,410 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reggie's Resume</title>
+<style type="text/css">
+#container {
+    width: 1000px;
+    height: 1400px;
+    background-color: #922325;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    margin-top: -10px;
+}
+#title {
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-size: larger;
+    font-weight: 300;
+    font-variant: normal;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+#bio {
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    color: #922325;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+#bioinfo {
+    width: 1000px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+}
+#education {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 50px;
+    color: #000000;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+    background-color: #FFFFFF;
+}
+#schools {
+    width: 1000px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+}
+#courses {
+    width: 500px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    float: left;
+}
+#hobbies {
+    width: 500px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 400;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    float: left;
+}
+#courseinfo {
+    width: 500px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C9171B;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 200;
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+    float: left;
+}
+#skillsinfo {
+    width: 500px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+    float: left;
+    margin-top: auto;
+}
+#skills {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 30px;
+    color: #000000;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    background-color: #FFFFFF;
+    clear: left;
+    display: inherit;
+}
+#hobbies1 {
+    width: 500px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    font-size: large;
+    float: left;
+}
+#hobbies2 {
+    width: 500px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C9171B;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    float: right;
+    margin-top: 0px;
+}
+#hobbies3 {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    float: left;
+}
+#hobbies4 {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    float: left;
+}
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 30px;
+    color: #000000;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #FFFFFF;
+    clear: left;
+    font-size: x-large;
+}
+#youtube {
+    width: 333px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+    float: left;
+}
+#linkedin {
+    width: 333px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+    float: right;
+}
+#instagram {
+    width: 333px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C9171B;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+    float: left;
+}
+#attributes {
+    width: 1000px;
+    height: 200px;
+    background-color: #922325;
+}
+body {
+    background-color: #7B1E26;
+}
+#logo {
+    float: left;
+}
+#hobby {
+    width: 250px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    float: right;
+}
+#portfolio {
+    width: 250px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    float: right;
+}
+#aboutme {
+    width: 220px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    float: right;
+}
+#home {
+    width: 220px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #922325;
+    color: #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    float: right;
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+  <div id="title">
+    
+  <img src="IMG_20250424_011459_006.png" alt="" width="58" height="52" id="logo"/> <div id="home"><a href="hobby.html">Hobby</a></div> 
+  <div id="aboutme"><a href="aboutme.html">Aboutme</a></div> <div id="portfolio"><a href="portfolio.html">Portfolio</a></div> <div id="hobby"><a href="index.html">Home</a></div>
+  </div>
+  <div id="bio"> Reginald Goins</div>
+  <div id="bioinfo">
+    <video width="1000" height="450" preload="auto" muted="muted" autoplay="autoplay" loop="loop" >
+      <source src="dr_pepper_commercial.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div id="courses">thereelreggie</div>
+	<div id="hobbies"> Bio</div>
+	<div id="courseinfo"> <img src="Snapchat-1222322292~4.jpg" width="321" height="320" alt=""/>  </div>
+  <div id="skillsinfo">
+    <p style="color: #FFFFFF">&nbsp;</p>
+      <p><strong>Hello! My name is Reginald Goins. </strong> </p>
+    <h5>My videos include documentaries, commercials, skits, music videos, short interviews, and more. Each piece showcases a different style and creative approach. If you're interested, I invite you to explore them further. You can find them all on my portfolio page!</h5>
+  </div>
+	<div id="skills"> <strong>Skills</strong>	</div>
+	<div id="hobbies1">My skill set consists of: 
+	  <ul>
+	      <li><strong>Video Capturing</strong></li>
+	      <li><strong>Audio Capturing</strong></li>
+	      <li><strong>Video Editing</strong></li>
+	      <li><strong>Audio Editing</strong></li>
+		  <li><strong>Audio Mixing</strong></li>
+	      <li><strong>Editing in Premiere Pro</strong></li>
+	      <li><strong>Editing in DaVinci Black Magic</strong></li>
+	      <li><strong>PhotoShop</strong></li>
+	      <li><strong>Lightroom</strong></li>
+	      <li><strong>Live Photography </strong></li>
+	      <li><strong>Still-life Photography</strong></li>
+      </ul>
+      <p>&nbsp;</p>
+  </div>
+	<div id="hobbies2"> <img src="Product color pallete copy.jpg" width="400" height="250" alt=""/>	</div>
+	<div id="contact"> <strong>Contact </strong></div>
+	<div id="youtube">
+	  <p><img src="YouTube_full-color_icon_(2017).svg.png" width="238" height="183" alt=""/></p>
+	  <p><a href="www.youtube.com/@thereelreggie">YouTube</a></p>
+	</div>
+	<div id="instagram">
+	  <p style="color: #FFFFFF"><img src="Instagram_logo_2022.svg.png" width="195" height="186" alt=""/></p>
+	  <p style="color: #FFFFFF"><a href="https://www.instagram.com/thereelreggie/profilecard/?igsh=ZXZyMjFhcGhsNnc=">Instagram</a></p>
+	</div>
+  <div> <div id="linkedin">
+	  <p style="color: #FFFFFF"><img src="LinkedIn_icon.svg.png" width="200" height="185" alt=""/></p>
+	  <p style="color: #FFFFFF"><a href="https://www.linkedin.com/in/reggie-goins-64ba73288/">Linkedin</a></p>
+  </div></div>
+</div>
+</body>
+</html>
